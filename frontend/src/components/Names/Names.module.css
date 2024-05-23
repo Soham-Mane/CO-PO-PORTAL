@@ -1,0 +1,159 @@
+
+.container{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 80%;
+    /* background-color: antiquewhite; */
+    height: 3rem;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /* This removes the dots from the entire list */
+
+}
+li{
+    font-weight: 400;
+    color: black;   
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+  a:before,
+  a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #1976D2;
+    transition: 0.5s;
+  }
+  a:after {
+    left: 0;
+    bottom: -10px;
+  }
+  a:before {
+    right: 0;
+    top: -10px;
+  }
+  a:hover {
+    color: black;
+  }
+  a:hover:after,
+  a:hover:before {
+    width: 100%;
+  }
+.container2{
+  width: 100%;
+  height: 40rem;
+  background-color: #fff;
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 3rem; */
+  padding-top: 5rem;
+  padding-left: 7rem;
+}
+
+.heroHeading{
+  display: flex;
+  flex-direction: column;
+  gap:1.5 rem;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  font-weight: bold;
+  color:black;
+  text-overflow: inherit;
+}
+.heroHeading span{
+  font-family: 'Inter', sans-serif;
+
+}
+.headingtext{
+  font-size: 1rem;
+  /* font-weight:200; */
+  text-transform: none;
+  letter-spacing: 1px;
+ width: 80%;
+}
+.strokeTxt{
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.thebestad{
+  /* margin-top: 4rem; */
+  background-color: #363d42;
+  border-radius: 4rem;
+  width: fit-content;
+  color: black;
+  padding: 20px 13px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  }
+  .thebestad span{
+      z-index: 2;
+  }
+  .thebestad div{
+      position: absolute;
+      width: 30%;
+      height: 80%;
+      left: 8px;
+      border-radius: 3rem;
+      background-color: #1976D2;
+      opacity: 0.7;
+      z-index: 1;
+  }
+  
+
+  
+.figures {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+
+}
+.figures div{
+  display: flex;
+  flex-direction: column;
+}
+.figures div span:nth-of-type(1)
+{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+.figures div span:nth-of-type(2)
+{
+  color: grey;
+  text-transform: uppercase;
+  color:rgb(200, 192, 192)
+}
+.right{
+  display: flex;
+  justify-content: center;
+}
+.college{
+  width: 25rem;
+  height: 30rem;
+  padding-left: 5rem;
+}

@@ -1,0 +1,116 @@
+.carousel-main {
+  padding: 2rem;
+
+  /* background-color: black; */
+}
+
+.carousel {
+  gap: 30px;
+  /* margin-bottom: 3rem; */
+  height: 550px;
+}
+
+.title h2 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:xx-large;
+}
+
+.box-upload1 {
+  width: 400px;
+  height: 500px;
+  /* background-color: red; */
+  margin: 10px;
+  border-color: black;
+  border-radius: 10px;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.title {
+  width: 400px;
+  height: 100px;
+  /* background-color: green; */
+}
+
+.title h2 {
+  text-align: center;
+}
+
+.upload {
+  width: 400px;
+  height: 250px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit {
+  width: 400px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.ass {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.process {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.input {
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input:hover {
+  border-color: #00f;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input::file-selector-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input::file-selector-button:hover {
+  background-color: #0056b3;
+}
+
+.input::file-selector-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Add hover effects and other animations */
+.box-upload1:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Add more animations and transitions as needed */
